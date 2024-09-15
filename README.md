@@ -34,3 +34,44 @@ The Book Management System is a web application designed to efficiently manage a
 
    ```bash
    git clone https://github.com/your-username/book-management-system.git
+
+2. **Navigate to the Project Directory**
+   ```bash
+   cd book-management-system
+3. **Install Dependencies**
+   ```bash
+   npm install
+4. **Start the Development Server**
+   ```bash
+   npm start
+5. **Access the Application**
+   - **Open your browser and navigate to http://localhost:3000 to see the application in action.**
+
+## Usage
+
+Create Book
+- Navigate to the "Create Book" page.
+- Enter the book details (title, author, publish year).
+- Click "Save" to add the book to the collection.
+  
+## View Book Details
+- Navigate to the "Show Book" page by clicking on the book in the list.
+- View detailed information about the book, including ID, title, author, publish year, creation time, and last update time.
+- Edit Book
+- Navigate to the "Edit Book" page to modify the book details.
+- Update the title, author, or publish year as needed.
+- Click "Save" to apply changes.
+  
+## Delete Book
+- Navigate to the "Delete Book" page to remove a book.
+- Confirm deletion by clicking "Yes, Delete it."
+  
+## Components
+- **BackButton:** A button component for navigating back to the previous page.
+- **Spinner:** A loading indicator displayed while data is being fetched or processed.
+- **BooksTable:** A table that lists all books with options to view, edit, and delete each entry.
+- **BookSingleCard:** A card component displaying book details and action buttons.
+- **BookModal:** A modal that shows detailed information about a book when triggered.
+
+## Sample Data
+- A sample data file (books-data.json) is provided to pre-populate the book collection for testing purposes. You can import this data into your database for initial testing.
